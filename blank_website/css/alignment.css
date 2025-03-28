@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    border: 2px solid rgb(23,90,100);
+    padding: 16px;
+    height: 50vh;
+    margin: 10px;
+    gap: 100px;
+}
+
+.container > * {
+    border: 1px solid rgb(23,90,100);
+    width: 60px;
+    max-height: 60px;
+}
+
+.container div:nth-child(1){
+    flex: 1;
+    background-color: pink;
+}
+
+.container div:nth-child(2){
+    flex: 1;
+    background-color: orange;
+}
+
+.container div:nth-child(3){
+    flex: 1;
+    background-color: blue;
+}
+
